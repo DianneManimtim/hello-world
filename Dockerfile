@@ -1,6 +1,5 @@
 # Pull base image 
-#From tomcat:8-jre8 
-From hello-world-demo:latest
+From tomcat:8-jre8 
 
 # Maintainer 
 MAINTAINER "princess.a.manimtim@accenture.com" 
