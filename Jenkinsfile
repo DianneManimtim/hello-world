@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Git-Checkout'){
             steps{
-                echo "Checkign out from Git Repo";
+                echo "Checking out from Git Repo";
                 git 'https://github.com/DianneManimtim/hello-world.git'
             }
         }
